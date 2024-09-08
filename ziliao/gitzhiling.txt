@@ -15,3 +15,4 @@ git branch -m oldBranchName newBranchName//将旧分支名字改成新分支名�
 git push -u origin main//github把远程仓库的名称默认称为origin
 1.先把本地的当前分支推送到远程仓库origin的main分支
 2.然后把本地的当前分支关联到远程仓库origin的main分支
+git remote add origin git@github.com:Whj112772/cangku.git
