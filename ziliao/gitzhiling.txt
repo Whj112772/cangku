@@ -1,0 +1,17 @@
+git config --global user.name  "用户名"  //设置git的用户名
+git config --global user.email  "用户邮箱"  // 配置git的邮箱
+ssh-keygen // 在任意路径下执行即可（ssh密钥）
+git status // 项目文件的状态：待提交、文件已入库 文件已修改 暂存状态
+git branch [新的分支名] //新建一个分支，但不会立马切换到新建分支
+git checkout -b [分支名] // 新建一个分支，并切换到该新建分支
+git merge [分支名] // 合并该指定分支名到当前分支
+git branch -d [要删除的分支名] // 删除分支
+git push origin --delete [branch-name] // 删除远端分支
+git branch -dr [remote/branch] // 删除远端分支
+git init //初始化git仓库
+git add ***.***//将文件添加到git仓库中的暂存区去
+git commit -m '将***提交' //将刚添加的文件提交到仓库中
+git branch -m oldBranchName newBranchName//将旧分支名字改成新分支名字
+git push -u origin main//github把远程仓库的名称默认称为origin
+1.先把本地的当前分支推送到远程仓库origin的main分支
+2.然后把本地的当前分支关联到远程仓库origin的main分支
